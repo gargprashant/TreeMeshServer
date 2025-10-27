@@ -11,7 +11,7 @@ builder.Services.AddCors(options =>
 {
     options.AddDefaultPolicy(policy =>
     {
-        policy.WithOrigins("https://rtcclient-dmeea3dkbkfpekc0.centralindia-01.azurewebsites.net")
+        policy.WithOrigins("https://red-hill-072519500.3.azurestaticapps.net")
               .AllowAnyHeader()
               .AllowAnyMethod()
               .AllowCredentials();
